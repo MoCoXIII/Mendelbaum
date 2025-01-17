@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Permutation Tree Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Permutation Tree Generator</h1>
+    <label for="depth">Depth:</label>
+    <input type="number" id="depth" value="0" min="0">
+    <br>
+    <label for="parents">Parents:</label>
+    <br>
+    <textarea id="parents" rows="4" cols="50" placeholder="Enter one parent per line"></textarea>
+    <br>
+    <button onclick="generateTree()">Generate Tree</button>
+    <button onclick="copyResults()">Copy Results</button>
+    <div id="treeContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

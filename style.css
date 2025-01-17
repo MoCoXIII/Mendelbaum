@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input[type="number"], input[type="text"] {
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#treeContainer {
+    margin-top: 20px;
+}
